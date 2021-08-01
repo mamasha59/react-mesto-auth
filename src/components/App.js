@@ -34,7 +34,7 @@ function App() {
     }
   }
   React.useEffect(() => {
-    tokenCheck;
+    tokenCheck();
   }, [loggedIn]);
 
   function handleRegistration(password, email) {//----- регистрация 
